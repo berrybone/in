@@ -1,0 +1,143 @@
+<section class="pt-5 pb-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <h3 class="mb-3 tile">Our Care Givers </h3>
+              </div>
+              <div class="col-6 text-right">
+                  <a class="btn movy mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                      <i class="fa fa-arrow-left"></i>
+                  </a>
+                  <a class="btn movy mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                      <i class="fa fa-arrow-right"></i>
+                  </a>
+              </div>
+              <div class="col-12">
+                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+  
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="https://img.freepik.com/free-photo/medium-shot-nurse-man-posing_23-2148940046.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+                                              
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="https://img.freepik.com/free-photo/doctor-talking-with-her-elder-patient_23-2148962314.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="https://img.freepik.com/free-photo/long-shot-nurse-helping-old-woman-with-her-coat_23-2148239064.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="https://img.freepik.com/premium-photo/senior-couple-with-man-wheelchair-greeting-female-nurse-care-worker-making-home-visit-door_562859-3141.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="https://img.freepik.com/free-photo/doctor-helping-senior-patient_23-2148962321.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="https://img.freepik.com/premium-photo/portrait-female-nurse-care-worker-making-home-visit-senior-couple-with-man-wheelchair_562859-3164.jpg?w=740">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <!-- <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card profile">
+                                          <img class="img-fluid" alt="100%x280" src="">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Elder Care Agent</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <button class="btn movy">Hire Me</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
