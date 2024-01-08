@@ -172,7 +172,7 @@
 
 
  
-<div id="floating-button">+</div>
+<div class="floating-button" onclick="startVoiceNavigation()" id="floating-button">+</div>
 <style> 
 
 #floating-button {
@@ -196,14 +196,45 @@
  box-shadow :0px -2px -5px rgba(0,0,0,.5); 
 }
 </style>
-<script>
-document.getElementById('floating-button').addEventListener('click', () => {
-    alert('Floating Button Clicked!');
-});
-</script>
 
 
+        <script>
+        function startVoiceNavigation() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
 
+            recognition.onresult = (event) => {
+                const command = event.results[0][0].transcript.toLowerCase();
+                navigateByVoiceCommand(command);
+            };
+
+            recognition.start();
+        }
+
+        function navigateByVoiceCommand(command) {
+            switch (command) {
+                case "home":
+                    window.location.href = 'index.html'; // Replace with your homepage URL
+                    break;
+                case "about":
+                    window.location.href = 'about.html'; // Replace with your about page URL
+                    break;
+                case "blog":
+                    window.location.href = 'blog.html'; // Replace with your blog page URL
+                    break;
+                case "contact":
+                    window.location.href = '#footer'; // Replace with your contact page URL
+                    break;
+                default:
+                    // Voice command not recognized, you can handle this here
+                    alert("Voice command not recognized");
+            }
+        }
+
+        function redirectToWebsite() {
+            window.location.href = "https://berrybone.github.io/in";
+        }
+    </script>
   <!-- create the container element -->
  
     
