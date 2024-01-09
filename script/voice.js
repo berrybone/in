@@ -12,37 +12,42 @@ function startVoiceNavigation() {
 
 function speakAndNavigate(command) {
     let speech = '';
+    let destinationURL = '';
+
     switch (command) {
         case "home":
             speech = "Navigating to home page";
-            speakAndRedirect(speech, 'index.html');
+            destinationURL = 'index.html';
             break;
         case "about":
             speech = "Taking you to the about page";
-            speakAndRedirect(speech, 'about.html');
+            destinationURL = 'about.html';
             break;
         case "blog":
             speech = "Redirecting to the blog";
-            speakAndRedirect(speech, 'blog.html');
+            destinationURL = 'blog.html';
             break;
         case "contact":
             speech = "Heading to the contact section";
-            speakAndRedirect(speech, '#footer');
+            destinationURL = '#footer';
             break;
         case "book an appointment":
             openCalendlyPopup();
             break;
         case "services":
             speech = "Moving to services";
-            speakAndRedirect(speech, 'services.html');
+            destinationURL = 'services.html';
             break;
         case "portfolio":
             speech = "Viewing the portfolio";
-            speakAndRedirect(speech, 'portfolio.html');
+            destinationURL = 'portfolio.html';
             break;
         default:
             alert("Voice command not recognized");
+            return;
     }
+
+    speakAndRedirect(speech, destinationURL);
 }
 
 function speakAndRedirect(speech, pageURL) {
