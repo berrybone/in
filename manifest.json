@@ -1,0 +1,23 @@
+{
+  "name": "Upract",
+  "short_name": "Upract",
+  "description": "An Identity of healthy India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "splash_screen": {
+    "src": "img/test.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "maskable"
+  }
+}

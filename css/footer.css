@@ -91,11 +91,12 @@ padding-left: 20px; padding-right: 20px; padding-top: 50px; padding-bottom: 50px
 
 .nav__ul a {
   color: #FFFFF0;
+padding-left: 24px;
 }
 
 .nav__ul--extra {
   column-count: 2;
-  column-gap: 1.25em;
+  column-gap: 48px;
 }
 
 .legal {

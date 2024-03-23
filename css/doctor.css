@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+@media only screen and (max-width: 767px) {
+.banner-container{
+height: auto;
+}
+}
+.search-text{
+color: #333333;
+font-family: "Madimi One", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-top: 10px;
+
+}
+.search-text-sec{
+  color: #333333;
+  font-family: "Madimi One", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+}
+.search-text-bottom{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #666666;
+font-weight: 600;
+margin-top: 5px;
+}
+
+*{
+      box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    width: 97%;
+    margin:  10px;  
+  }
+  #search-container {
+    margin: 10px;
+    padding-top: auto;
+  }
+  #search-container input {
+    background-color:#ffffff;
+    border-radius: 25px;
+    width: calc(90% - 30px);
+    height: 45px;
+    padding: 15px;
+    color: #2c3e50;
+  }
+  #search-container input:focus {
+background-color: aliceblue;
+  }
+.search-button{
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #27ae60;
+  height: 45px;
+  width: 45px;
+  font-size: 20px;
+  color: white;
+
+}
+.search-button:hover{
+  background-color: #1e8449;
+  color: white;
+}
+  #products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    padding: 5px 0;
+position: relative;
+  }
+  .card {
+    background-color: #ffffff;
+    max-width: 25em;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  }
+  .image-container {
+    text-align: center;
+  }
+
+  .product-price{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333333;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+  }
+  .container {
+    padding-top: 1em;
+    color: #110f29;
+  }
+
+  .hide {
+    display: none;
+  }
+  @media screen and (max-width: 720px) {
+    img {
+      max-width: 100%;
+      height: 10em;
+    }
+    .card {
+      max-width: 10em;
+      margin-top: 10px;
+    }
+    #products {
+      grid-template-columns: auto auto;
+      grid-column-gap: 5px;
+    }
+  }
+  .clsd{
+  margin: 10px;
+  }
+  .swiper-slide{
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+
+
