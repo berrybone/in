@@ -2,7 +2,7 @@
   "name": "Upract",
   "short_name": "Upract",
   "description": "An Identity of healthy India.",
-  "start_url": "/in/",
+  "start_url": "https://berrybone.github.io/in",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
