@@ -2,7 +2,7 @@
   "name": "Upract",
   "short_name": "Upract",
   "description": "An Identity of healthy India.",
-  "start_url": "/",
+  "start_url": "/in/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
